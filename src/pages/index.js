@@ -44,6 +44,7 @@ burger.addEventListener("mousedown", (e) => {
 const popup = document.querySelector(".popup");
 const popupClose = document.querySelector(".popup__close");
 let stb_exitintent = false;
+let activity = 0;
 
 popupClose.addEventListener("mousedown", () => {
   popup.classList.remove('popup_opened');
@@ -57,8 +58,11 @@ popup.addEventListener("mousedown", (e) => {
 
 document.addEventListener("mousemove", (e) => {
 const scroll = window.pageYOffset || document.documentElement.scrollTop;
-if((e.pageY - scroll) < 10 && stb_exitintent == false) {
-  popup.classList.add('popup_opened');
-	stb_exitintent = true;
+activity += e.pageY;
+if(activity > 10000) {
+  if((e.pageY - scroll) < 10 && stb_exitintent == false) {
+    popup.classList.add('popup_opened');
+    stb_exitintent = true;
+  }
 }
 });
