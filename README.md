@@ -10,7 +10,9 @@ HTML / CSS / БЭМ / Адаптивная верска / JavaScript / Webpack
 ## Запуск проекта
 
 npm i
+<br>
 npm run dev
+
 ## Ссылка на проект GH-Pages
 
 https://viktorpekin.github.io/biolica/
