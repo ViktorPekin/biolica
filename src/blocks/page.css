@@ -1,0 +1,13 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.page {
+  background-color: #fff;
+  margin: 0 auto;
+  font-family: 'Libre Baskerville', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,14 @@
+@import url(../vendor/normalize.css);
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+@import url(../vendor/fonts/stylesheet.css);
+@import url(../blocks/page.css);
+@import url(../blocks/font_FuturaPT.css);
+@import url(../blocks/header.css);
+@import url(../blocks/content.css);
+@import url(../blocks/article.css);
+@import url(../blocks/product.css);
+@import url(../blocks/comments.css);
+@import url(../blocks/comment.css);
+@import url(../blocks/footer.css);
+@import url(../blocks/popup.css);
+@import url(../blocks/burger.css);
